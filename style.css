@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(13, 64, 105);
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(24, 151, 224);
+}
+
+.name {
+    padding-right: 420px;
+    padding-left: 10px;
+    color: aliceblue;
+}
+
+a {
+    color: aliceblue;
+    padding-right: 15px;
+}
