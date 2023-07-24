@@ -1,14 +1,17 @@
 body {
     background-color: rgb(13, 64, 105);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column
 }
 .header {
     display: flex;
     flex-direction: row;
     background-color: rgb(24, 151, 224);
+    justify-content: space-between
 }
 
 .name {
-    padding-right: 420px;
     padding-left: 10px;
     color: aliceblue;
 }
@@ -16,4 +19,86 @@ body {
 a {
     color: aliceblue;
     padding-right: 15px;
+    
+    
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+footer {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: auto;
+    
+}
+
+img {
+    height: 2em;
+}
+
+a:hover {
+    color: black;
+}
+
+a:active {
+    color: black;
+}
+
+article {
+    color: aliceblue;
+    text-align: center;
+}
+
+.title {
+    color: aliceblue;
+}
+
+.second_header {
+    color: aliceblue;
+}
+
+.family img {
+    height: 150px;
+}
+
+.sports img {
+    height: 150px;
+}
+
+.dogs img {
+    height: 150px;
+}
+
+.firefighter img {
+    height: 150px;
+}
+
+.sports {
+    display: flex;
+    justify-content: space-between;
+}
+
+.firefighter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dogs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.family {
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio_header {
+    color:aliceblue
 }
