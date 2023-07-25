@@ -66,6 +66,10 @@ article {
 .family img {
     height: 150px;
 }
+.quote {
+    color: aliceblue;
+    text-align: center;
+}
 
 .sports img {
     height: 150px;
