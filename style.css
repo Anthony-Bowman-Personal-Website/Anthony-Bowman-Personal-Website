@@ -106,3 +106,13 @@ article {
 .portfolio_header {
     color:aliceblue
 }
+
+.contactForm {
+    color: aliceblue;
+    padding-bottom: 10px;
+}
+
+.submission {
+    color: aliceblue;
+    text-align: center;
+}
